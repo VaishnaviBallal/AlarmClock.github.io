@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>
+          ALARM CLOCK
+        </title>
+       <!--Connecting to stylesheet--> 
+        <link rel="stylesheet" type="text/css" href="CSS/Style.css">
+    </head>
+    <body>
+       
+<!-- this is the main center part of the page -->
+           <!--main website name-->
+            <div class="website-name">
+             <h2 id="website-name">ALARM CLOCK</h2>
+            </div>
+
+            <!-- Display the time -->
+           
+              <h1 id="Time">Now,The Time Is:</h1>
+            
+       <!--to select date time and seconds-->
+       <div class="Alarm-Setting">
+            <label>
+                <div>
+                    <select class="time" id="hour"></select>
+                </div>
+            </label>
+            <label>
+                <div>
+                    <select class="time" id="minutes"></select>
+                </div>
+            </label>
+            <label>
+                <div>
+                    <select class="time" id="seconds"></select>
+                </div>
+            </label>
+            <label>
+                <div>
+                    <select class="time" id="ampm"></select>
+                </div>
+            </label>
+        </div>
+
+        
+        
+            <!--Alarm setting button-->    
+                <div class="set-alarm-button">
+                    <button id="setButton">Set Alarm</button>
+                
+             <!--Clearing the alarm-->   
+                
+                    <button id="setClear">Clear Alarm</button>
+                </div>
+
+               
+
+            <!--Section 2 ,in this all the alarms are listed-->
+              <div class="AllAlarms">
+                <h4 id="AllAlarms">Upcoming Alarms</h4>
+            
+                
+                  <!-- Here will be the list of all recent alarm -->
+                    <ul id="incomplete-alarms">
+
+                      </ul>
+              </div>
+
+           
+           <script src="D:\coding ninjas\projects by me\AlarmClock\Script\index.js"></script>
+    </body>
+</html>

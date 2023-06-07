@@ -1,0 +1,118 @@
+body {
+	background-image: url("../Media/alarmclockBgImage.jpg");
+	margin: 0px;
+    background-size: 1800px 800px;
+    background-repeat: no-repeat;
+	font-family: "Segoe UI", Arial, sans-serif;
+	color: white;
+}
+.website-name h6 {
+	color: rgb(80, 220, 255);
+}
+
+.website-name{
+   color: rgb(80, 220, 255);
+   font-size:50px;
+   padding-left: 50px;
+   
+   
+}
+
+#website-name{
+  height: 50px;
+}
+
+#Time {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size:40px;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+  padding-left: 130px;
+  height: 5px;
+  
+}
+
+.Alarm-Setting{
+  display: flex;
+  flex-direction: row;
+  padding: 2em 2em 0 2em;
+  padding-left:80px;
+
+}
+
+
+
+label {
+  letter-spacing: 0.1em;
+  background: rgba(0, 0, 0, 0.1);
+  padding:5px;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+
+.time {
+  width: 100%;
+  padding: 0.5em 0.6em;
+  padding-left: 20px;
+  background: #87CEEB;
+  border-color: white;
+  border-radius: 6px;
+}
+
+.hour{
+    width: 70%;
+    padding-left: 20px;
+}
+
+.set-alarm-button{
+  padding-top: 30px;
+  padding-left: 110px;
+}
+
+#setButton{
+  background-color: #87CEEB;
+  border:black;
+  color: black;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Clear-button{
+  padding-top: 20px;
+  padding-left: 163px;
+}
+
+#setClear{
+  background-color: #87CEEB;/* Green */
+  border: none;
+  color: black;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.AllAlarms {
+  padding-top:1px;
+  padding-left:20px;
+  font-size: 30px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+button.delete {
+  background: rgba(105, 131, 144, 0.5);
+  border: black;
+  font-size: 25px;
+  padding: 0.4em 1em;
+  border-radius: 10px;
+  box-shadow: 2px 3px rgba(0, 0, 0, 0.2);
+  margin: 0.3em;
+}
